@@ -1,27 +1,25 @@
 {
   "name": "richardldoyle.com",
-  "version": "1.0.0",
-  "description": "Personal Website",
-  "main": "index.js",
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/d0nkeyBOB/richardldoyle.com.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/d0nkeyBOB/richardldoyle.com/issues"
-  },
-  "homepage": "https://github.com/d0nkeyBOB/richardldoyle.com#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "buefy": "^0.7.2"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
   },
-  "devDependencies": {
-    "vuepress": "^0.14.8"
-  }
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
